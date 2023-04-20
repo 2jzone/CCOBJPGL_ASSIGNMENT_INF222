@@ -5,7 +5,7 @@ public class exercise1 {
     public static void main(String[] args) throws Exception {
 
         //precondition
-        assert iWillBehave == true : "You're a very bad boy";
+        assert iWillBehave == true : "Sit down be humble - pareng kendrick";
 
         College();
 
