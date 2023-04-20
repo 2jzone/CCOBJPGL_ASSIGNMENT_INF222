@@ -1,22 +1,23 @@
 public class exercise1 {
-
-    static boolean iWillReview = true;
-    static boolean iWillNotFail = true;
-
+    //assumpiton
+    static boolean iWillBehave = true;
+    static boolean iWillGraduate = true;
     public static void main(String[] args) throws Exception {
-        
-       // exercise1 myApp = new exercise1();
 
-        // pre-condition
-        assert iWillReview == true: "I will fail.";
+        //precondition
+        assert iWillBehave == true : "You're a very bad boy";
 
-        Study();
-        // post-condition
-        assert iWillNotFail == true: "You failed.";
+        College();
+
+        //postcondition
+        assert iWillGraduate == true : "Better luck next time! You got this!";
+
     }
 
-    static void Study() {
-        iWillReview = false;
-        iWillNotFail = false;
+    static void College(){
+
+        iWillGraduate = false;
+    
     }
+    
 }
